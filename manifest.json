@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "opencvjs-sample",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": {
+    "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval';"
+  },
+  "sandbox": {
+    "pages": [
+      "sandbox/sandbox.html"
+    ]
+  }
+}
